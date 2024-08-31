@@ -1,0 +1,16 @@
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("enter the length of the square:");
+            double side = double.Parse(Console.ReadLine());
+
+            double perimetr = 4 * side;
+            double area = side * side;
+
+
+            Console.WriteLine($"Итого периметр: {perimetr}\nИтого площадь квадрата: {area}");
+
+        }
+    }
+}
