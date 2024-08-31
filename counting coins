@@ -1,0 +1,53 @@
+    internal class Program
+    {
+        static int CountSum(int a, int b, int c, int d)
+        {
+            int res = a + b + c + d;
+
+            return res;
+        }
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("how many 50 kopeck coins do you have?:");
+            int a = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("how many 10 kopeck coins do you have?:");
+            int b = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("how many 5 kopeck coins do you have?:");
+            int c = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("how many 1 kopeck coins do you have?:");
+            int d = int.Parse(Console.ReadLine());
+
+            int res = CountSum(a, b, c, d);
+            Console.WriteLine($"Total:{res}");
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       }
+    }
+}
